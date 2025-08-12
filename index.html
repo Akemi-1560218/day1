@@ -18,8 +18,17 @@ console.log(num);
 // etc.
 
 //2
-//isOdd という関数を宣言します。これが呼び出されたら、与えられた数値が奇数かどうかを console.log で表示しましょう。
+let givenNumber;
+
 function isOdd(givenNumber) {
   // ここにあなたのコードを書いてください
   // 与えられた数値によって、"Yes, it's odd" もしくは "No, it's even" を表示
+    if (givenNumber % 2 === 0) {
+        console.log("Yes, it's odd");
+    } else {
+        console.log("No, it's even");
+    }
 }
+
+isOdd(1);
+isOdd(2);
