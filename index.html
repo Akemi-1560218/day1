@@ -2,14 +2,19 @@
 //counter という関数を宣言します。これが呼び出されたら、常に前回呼び出された時よりも 1 つ大きい数値を console.log で表示しましょう。
 
 // アドバイス： ここで何かする必要があるかもしれません
+let num =0;
 
 function counter() {
   // ここにあなたのコードを書いてください
+  num = num + 1;
 }
 
 counter(); // => 1
+console.log(num);
 counter(); // => 2
+console.log(num);
 counter(); // => 3
+console.log(num);
 // etc.
 
 //2
